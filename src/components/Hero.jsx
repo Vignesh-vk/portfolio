@@ -2,10 +2,10 @@ import React from "react";
 import hero from "../assets/images/hero.jpg";
 const Hero = () => {
   const social_media = [
-    { name: "Instagram", icon: "logo-instagram", link: "https://instagram.com" },
-    { name: "Facebook", icon: "logo-facebook", link: "https://facebook.com" },
-    { name: "LinkedIn", icon: "logo-linkedin", link: "https://linkedin.com" },
-    { name: "Twitter", icon: "logo-twitter", link: "https://twitter.com" },
+    { name: "Instagram", icon: "logo-instagram", link: "https://www.instagram.com/cl_me_vignesh/" },
+    { name: "Facebook", icon: "logo-facebook", link: "https://facebook.com/share/HfPYej7BfYssohYN" },
+    { name: "LinkedIn", icon: "logo-linkedin", link: "https://linkedin.com/in/vigneshkumar-p-51baa6153" },
+    { name: "Twitter", icon: "logo-twitter", link: "https://x.com/ErVigneshkumar" },
   ];
 
 

@@ -4,7 +4,7 @@ const Contact = () => {
   const contact_info = [
     { logo: "mail", name: "Email", text: "vigneshpanneer7@gmail.com", action: "mailto:vigneshpanneer7@gmail.com" },
     { logo: "logo-whatsapp", name: "Call", text: "+91-9786795296", action: "tel:+919786795296" },
-    { logo: "logo-linkedin", name: "Linkedin", text: "Linkedin", action: "https://in.linkedin.com/in/vigneshkumar-p-51baa6153" },
+    { logo: "logo-linkedin", name: "Linkedin", text: "Linkedin", action: "https://linkedin.com/in/vigneshkumar-p-51baa6153" },
     {
       logo: "location",
       name: 'Address',
