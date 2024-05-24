@@ -12,9 +12,9 @@ const Services = () => {
     design: {
       tab: "Design",
       services: [
-        { logo: "design-logo", name: "Graphic Design", description: "Graphic Design: Combining visual elements and creativity to communicate messages and concepts effectively through various mediums such as print, and multimedia." },
-        { logo: "ux-logo", name: "UI/UX Design", description: "UI/UX Design: Creating intuitive and visually appealing interfaces to enhance user interactions and overall experience across digital platforms and products." },
-        { logo: "logo-logo", name: "Logo Design", description: "Brand Identity: Crafting a cohesive visual and conceptual framework to communicate a brand's values, personality, and offerings, ensuring consistency" }
+        { logo: "design-logo", name: "Graphic Design", description: "Graphic design involves integrating visual elements and creativity to effectively convey messages and concepts across different mediums, including print and multimedia." },
+        { logo: "ux-logo", name: "UI/UX Design", description: "UI/UX design entails crafting intuitive and visually captivating interfaces that elevate user interactions and enhance the overall experience across digital platforms and products." },
+        { logo: "logo-logo", name: "Logo Design", description: "Brand identity involves developing a unified visual and conceptual structure to effectively communicate a brand's values, personality, and offerings, ensuring consistency across all channels." }
       ]
     },
     development: {
@@ -23,10 +23,10 @@ const Services = () => {
         {
           logo: "web-logo",
           name: "Web Development",
-          description: "Web development involves creating and maintaining websites and web applications, encompassing both front-end (client-side) and back-end (server-side)"
+          description: "Web development encompasses the creation and upkeep of websites and web applications, covering both front-end (client-side) and back-end (server-side) aspects."
         },
-        { logo: "app-logo", name: "App Development", description: "App development: Creating software solutions for diverse platforms to address specific user needs and enhance digital experiences." },
-        { logo: "software-logo", name: "Software Development", description: "Software Development: Designing, coding, testing, and maintaining computer programs to meet user requirements and solve complex problems efficiently." }
+        { logo: "app-logo", name: "App Development", description: "App development involves crafting software solutions across various platforms to meet specific user requirements and elevate digital experiences." },
+        { logo: "software-logo", name: "Software Development", description: "Software development encompasses the design, coding, testing, and maintenance of computer programs, aimed at meeting user needs and efficiently addressing complex problems." }
       ]
     }
   };

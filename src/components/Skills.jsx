@@ -5,7 +5,7 @@ const Skills = () => {
     {
       logo: "logo-html5",
       level: "HTML",
-      count: 86,
+      count: 96,
     },
     {
       logo: "logo-css3",
@@ -15,21 +15,16 @@ const Skills = () => {
     {
       logo: "logo-nodejs",
       level: "Node Js",
-      count: 40,
+      count: 90,
     },
     {
       logo: "logo-react",
       level: "React Js",
-      count: 80,
+      count: 95,
     },
     {
       logo: "logo-react",
       level: "React Native",
-      count: 80,
-    },
-    {
-      logo: "logo-react",
-      level: "Next Js",
       count: 80,
     },
     {
@@ -45,12 +40,11 @@ const Skills = () => {
           My <span className="text-cyan-600">Skills</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">
-          MERN stack developers appreciate the streamlined
-          workflow and simplified maintenance made
-          possible by utilizing a single language (JavaScript)
-          throughout the development stack.
-          This approach accelerates project
-          delivery and promotes scalability for enhanced efficiency.
+          MERN stack developers value the efficient workflow
+          and ease of maintenance achieved by employing a unified language (JavaScript)
+          across the entire development stack.
+          This strategy expedites project completion and fosters scalability,
+          leading to improved productivity.
         </p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

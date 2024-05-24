@@ -37,7 +37,7 @@ const Experience = () => {
                     My <span className="text-cyan-600">Experience</span>
                 </h3>
                 <p className="text-gray-400 mt-3 text-lg">
-                    Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system.
+                    I will delve into the genesis of the misconception surrounding the denouncement of pleasure and offer a comprehensive explanation of the system.
                 </p>
                 <div className="mt-16 max-w-5xl mx-auto flex flex-wrap justify-center">
                     <div>

@@ -17,7 +17,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Passionate React Full Stack Developer, weaving creativity into code for seamless digital experiences.
+                As a fervent React Full Stack Developer, I blend creativity with code to craft seamless digital experiences.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
