@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-Poppins scroll-smooth;
+}
+body {
+  @apply box-border bg-gray-900 text-gray-100;
+}
+.btn-primary {
+  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+}
+
+.aboutImg::after {
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-600 -z-10;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white;
+}
+
+input,
+textarea {
+  @apply bg-gray-700 outline-none rounded-lg p-3;
+}
+::placeholder {
+  @apply text-lg;
+}
+
+::selection {
+  @apply bg-cyan-600;
+}
+
+.service-container {
+  width: 300px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service-container:hover {
+  transform: scale(1.05);
+}
+
+.icon-container {
+  position: relative;
+}
+
+.icon-circle {
+  background-color: rgb(8 145 178 / var(--tw-bg-opacity));
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.service-container:hover .icon-circle {
+  background-color: #3d415b;
+  width: 110px;
+  height: 110px;
+}
+
+.tab-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.tab-box.active-tab {
+  background-color: #007bff; 
+  border-color: #007bff;
+}
+
+.tab-box:last-child {
+  margin-right: 0;
+}
+
