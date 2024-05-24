@@ -4,7 +4,7 @@ const Contact = () => {
   const contact_info = [
     { logo: "mail", name: "Email", text: "vigneshpanneer7@gmail.com", action: "mailto:vigneshpanneer7@gmail.com" },
     { logo: "logo-whatsapp", name: "Call", text: "+91-9786795296", action: "tel:+919786795296" },
-    { logo: "logo-linkedin", name: "Linkedin", text: "linkedin.com/in/yourprofile", action: "https://linkedin.com/in/yourprofile" },
+    { logo: "logo-linkedin", name: "Linkedin", text: "Linkedin", action: "https://in.linkedin.com/in/vigneshkumar-p-51baa6153" },
     {
       logo: "location",
       name: 'Address',
@@ -25,14 +25,14 @@ const Contact = () => {
             <div className="w-12 h-12 flex items-center justify-center text-white bg-cyan-600 rounded-full mb-2">
               <ion-icon name={contact.logo}></ion-icon>
             </div>
-            <div>
+            <a href={contact.action} className="text-sm text-gray-300" target="_blank" rel="noopener noreferrer">
               <p className="text-lg font-semibold mb-1">{contact.name}</p>
               {contact.action ? (
-                <a href={contact.action} className="text-sm text-gray-300" target="_blank" rel="noopener noreferrer">{contact.text}</a>
+                <p className="text-sm text-gray-300">{contact.text}</p>
               ) : (
                 <p className="text-sm text-gray-300">{contact.text}</p>
               )}
-            </div>
+            </a>
           </div>
         ))}
       </div>
