@@ -33,9 +33,8 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href={Resume} download="Vigneshkumar_Resume">
-                <button className="btn-primary">Download CV</button>
-              </a>
+              <button className="btn-primary">
+                <a href={Resume} download="Vigneshkumar_Resume">Download CV</a></button>
             </div>
           </div>
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
