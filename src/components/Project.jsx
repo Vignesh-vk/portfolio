@@ -1,10 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
+import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
+import project5 from "../assets/images/project-5.jpg";
 import project_person from "../assets/images/projectImg.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,35 +14,32 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "My Ecommerce website",
+      live_link: "https://e-commcart.netlify.app/",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "My Ecommerce website",
+      live_link: "https://ecommmerceweb.netlify.app/",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      name: "Job search Web App",
+      // github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+      live_link: "https://myjobsearch.netlify.app",
     },
     {
       img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+      name: "Highking",
+      // github_link: "https://github.com/Sridhar-C-25/highking",
+      live_link: "https://highking01.netlify.app",
     },
     {
       img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
-    },
+      name: "React Nav",
+      // github_link: "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
+      live_link: "https://reacttailwindnavbar.netlify.app",
+    }
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -78,13 +75,13 @@ const Project = () => {
                   <img src={project_info.img} alt="" className="rounded-lg" />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
-                    <a
+                    {/* <a
                       href={project_info.github_link}
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Github
-                    </a>
+                    </a> */}
                     <a
                       href={project_info.live_link}
                       target="_blank"
